@@ -5,10 +5,10 @@ import { motion } from "framer-motion";
 
 function Services() {
   return (
-    <div id='services'>
+    <div >
       <div className="text-center">
         <Dots />
-        <h1 className="skills mb-10 text-4xl font-bold relative z-50 tracking-widest text-white">
+        <h1 id='services' className="skills mb-10 text-4xl font-bold relative z-50 tracking-widest text-white">
           Services
         </h1>
       </div>

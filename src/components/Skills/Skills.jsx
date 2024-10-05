@@ -36,10 +36,10 @@ function Skills() {
   };
 
   return (
-    <div id="skills" className="text-white">
-      <div className="text-center">
+    <div  className="text-white">
+      <div id="skills" className="text-center">
         <Dots />
-        <h1 className="skills mb-10 text-4xl font-bold relative z-50 tracking-widest">My Skills</h1>
+        <h1  className="skills mb-10 text-4xl font-bold relative z-50 tracking-widest">My Skills</h1>
       </div>
 
       {/* الشبكة الرئيسية لعرض المهارات */}

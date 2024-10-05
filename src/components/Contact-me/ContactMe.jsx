@@ -61,11 +61,11 @@ function ContactMe() {
       transition={{ duration: 0.8 }}
       viewport={{ once: true, amount: 0.3 }}
       className="my-10"
-      id='contact'
+      
     >
       <div className="text-center">
         <Dots2 />
-        <h1 className="skills mb-7 text-4xl font-bold relative z-50 tracking-widest text-white">Contact Me</h1>
+        <h1 id='contact' className="skills mb-7 text-4xl font-bold relative z-50 tracking-widest text-white">Contact Me</h1>
       </div>
       <p className="text-center text-gray-200">
         <CiMail className="inline-block" /> mostafaahmed1101997@gmail.com

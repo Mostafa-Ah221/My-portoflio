@@ -9,6 +9,7 @@ function About() {
       <div className="text-center">
         <Dots3 />
         <motion.h1
+        id='about' 
           className="skills mb-10 text-4xl font-bold relative z-50 tracking-widest text-white"
           initial={{ opacity: 0, y: -50 }} // بدء الحركة خارج الشاشة
           whileInView={{ opacity: 1, y: 0 }} // الحركة إلى الموضع الأصلي عند الدخول

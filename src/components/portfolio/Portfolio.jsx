@@ -16,7 +16,6 @@ import { IoLogoGithub } from "react-icons/io";
 import Dots from '../Dots';
 
 function Portfolio() {
-  // إعدادات الحركة لعناصر الصور
   const imageVariants = {
     hidden: { opacity: 0, scale: 0.8 },
     visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
@@ -31,13 +30,13 @@ function Portfolio() {
 
   return (
     <motion.div
-      id='portfolio'
+     
       className='my-10 text-white'
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
     >
-      <div className="text-center">
+      <div  id='portfolio' className="text-center">
         <Dots />
         <motion.h1
           className="skills mb-10 text-4xl font-bold relative z-50 tracking-widest"
@@ -47,7 +46,7 @@ function Portfolio() {
         </motion.h1>
       </div>
 
-      <div className="projects grid grid-cols-12 gap-7 my-14">
+      <div  className="projects grid grid-cols-12 gap-7 my-14">
         {/* بطاقة المشروع */}
         {[{
           title: "Simple Profile",
