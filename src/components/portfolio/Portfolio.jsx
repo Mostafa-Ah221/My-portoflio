@@ -80,8 +80,8 @@ function Portfolio() {
           imgSrc: img6,
         }, {
           title: "Fresh Cart",
-          demoLink: "#",
-          codeLink: "#",
+          demoLink: "https://mostafa-ah221.github.io/EE-com/",
+          codeLink: "https://github.com/Mostafa-Ah221/EE-com",
           imgSrc: img7,
         }, {
           title: "Profile",
