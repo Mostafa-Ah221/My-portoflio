@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'; // استيراد framer motion
 
 function About() {
   return (
-    <div id='about' className="min-h-screen text-white my-9">
+    <div id='about' className="min-h-screen text-white my-9 md:mr-6">
       {/* العنوان الرئيسي */}
       <div className="text-center">
         <Dots3 />
@@ -23,7 +23,7 @@ function About() {
       {/* المحتوى الرئيسي */}
       <motion.div
         style={{ backgroundColor: "#20262e" }}
-        className="max-w-4xl mx-auto bg-transparent rounded-xl shadow-2xl shadow-gray-700 p-8 lg:flex md:items-center"
+        className="max-w-4xl mx-auto bg-transparent rounded-xl shadow-2xl shadow-gray-700 p-2 md:p-7 lg:flex md:items-center"
         initial={{ opacity: 0, scale: 0.8 }} // تأثير البداية (خفية وبحجم أصغر)
         whileInView={{ opacity: 1, scale: 1 }} // إظهار وتكبير إلى الحجم الكامل عند الدخول
         transition={{ duration: 0.6 }} // مدة الحركة

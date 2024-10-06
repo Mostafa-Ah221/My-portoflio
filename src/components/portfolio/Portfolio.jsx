@@ -46,7 +46,7 @@ function Portfolio() {
         </motion.h1>
       </div>
 
-      <div  className="projects grid grid-cols-12 gap-7 my-14">
+      <div  className="projects grid grid-cols-12 gap-5 my-14">
         {/* بطاقة المشروع */}
         {[{
           title: "Simple Profile",

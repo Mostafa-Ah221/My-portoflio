@@ -31,12 +31,12 @@ function Skills() {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.5 }, // زيادة مدة الانتقال لجعل الحركة أكثر وضوحًا
+      transition: { duration: 0.5 },
     },
   };
 
   return (
-    <div  className="text-white">
+    <div  className="text-white ">
       <div id="skills" className="text-center">
         <Dots />
         <h1  className="skills mb-10 text-4xl font-bold relative z-50 tracking-widest">My Skills</h1>
@@ -44,7 +44,7 @@ function Skills() {
 
       {/* الشبكة الرئيسية لعرض المهارات */}
       <motion.div
-        className="grid grid-cols-12 gap-9 justify-between"
+        className="grid grid-cols-12 gap-6 justify-between"
         initial="hidden"
         whileInView="visible"
         viewport={{ amount: 0.3 }}
@@ -66,10 +66,10 @@ function Skills() {
         ].map((skill) => (
           <motion.div
             key={skill.label}
-            className="flex items-center gap-2 text-xl font-semibold col-span-6 md:col-span-4 p-4 border border-gray-400 hover:bg-black bg-opacity-25 duration-300"
+            className=" flex items-center text-sm md:text-xl font-semibold col-span-6 md:col-span-4 p-2 md:p-4 border border-gray-400 hover:bg-black bg-opacity-25 duration-300"
             variants={itemVariants}
-            whileInView="visible" // التأكد من أن الحركة تحدث عند ظهور العنصر
-            initial="hidden" // ابدأ في وضعية مخفية
+            whileInView="visible" 
+            initial="hidden" 
           >
             <skill.Icon className="text-3xl" />
             <h2>{skill.label}</h2>
