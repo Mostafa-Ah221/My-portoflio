@@ -9,6 +9,7 @@ import { FaBootstrap } from "react-icons/fa6";
 import { FaGitAlt } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
 import { IoLogoFirebase } from "react-icons/io5";
+import { TbBrandReactNative } from "react-icons/tb";
 import { motion } from "framer-motion"; // استيراد framer motion
 import Dots from "../Dots";
 
@@ -58,6 +59,7 @@ function Skills() {
           { Icon: SiReact, label: "React-js" },
           { Icon: SiRedux, label: "Redux" },
           { Icon: SiNextdotjs, label: "Next-js" },
+          { Icon: TbBrandReactNative, label: "React native" },
           { Icon: RiTailwindCssFill, label: "Tailwind CSS" },
           { Icon: FaBootstrap, label: "Bootstrap" },
           { Icon: FaGitAlt, label: "Git" },
