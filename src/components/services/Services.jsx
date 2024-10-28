@@ -16,18 +16,16 @@ function Services() {
         Explore the services I offer in front-end and mobile application development.
       </p>
 
-      {/* الشبكة التي تحتوي على البطاقات */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-5">
-        {/* كل بطاقة يتم تحويلها إلى motion.div لإضافة الحركات */}
         <motion.div
           style={{ backgroundColor: "#20262e" }}
           className="my-5 shadow-2xl shadow-gray-700 py-3 px-7 flex flex-col justify-center items-center text-center rounded-xl group"
-          whileHover={{ scale: 1.1 }} // تكبير بسيط عند التحويم
-          whileTap={{ scale: 0.9 }} // تصغير بسيط عند الضغط
-          initial={{ opacity: 0, y: 50 }} // تأثير بداية الحركة (خفية ومنخفضة قليلاً)
-          whileInView={{ opacity: 1, y: 0 }} // تأثير الحركة عند الدخول
-          transition={{ duration: 0.5 }} // مدة الحركة
-          viewport={{ once: false, amount: 0.5 }} // اجعلها تحدث كلما دخلت في العرض
+          whileHover={{ scale: 1.1 }} 
+          whileTap={{ scale: 0.9 }} 
+          initial={{ opacity: 0, y: 50 }} 
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }} 
+          viewport={{ once: false, amount: 0.5 }} 
         >
           <FaReact className="text-4xl text-orange-600" />
           <h3 className="text-orange-600">Web Development</h3>
@@ -42,9 +40,9 @@ function Services() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }} // تأثير الحركة عند الدخول
-          transition={{ duration: 0.5, delay: 0.2 }} // تأخير زمني للبطاقة الثانية
-          viewport={{ once: false, amount: 0.5 }} // اجعلها تحدث كلما دخلت في العرض
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }} 
+          viewport={{ once: false, amount: 0.5 }}
         >
           <FaMobileAlt className="text-4xl text-orange-600" />
           <h3 className="text-orange-600">Mobile Development</h3>
@@ -59,9 +57,9 @@ function Services() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }} // تأثير الحركة عند الدخول
-          transition={{ duration: 0.5, delay: 0.4 }} // تأخير زمني للبطاقة الثالثة
-          viewport={{ once: false, amount: 0.5 }} // اجعلها تحدث كلما دخلت في العرض
+          whileInView={{ opacity: 1, y: 0 }} 
+          transition={{ duration: 0.5, delay: 0.4 }}
+          viewport={{ once: false, amount: 0.5 }} 
         >
           <FcSmartphoneTablet style={{ fontSize: "3rem" }} className="text-orange-600" />
           <h3 className="text-orange-600">Responsive Web Development</h3>

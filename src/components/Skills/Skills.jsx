@@ -9,11 +9,10 @@ import { FaBootstrap } from "react-icons/fa6";
 import { FaGitAlt } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
 import { IoLogoFirebase } from "react-icons/io5";
-import { motion } from "framer-motion"; // استيراد framer motion
+import { motion } from "framer-motion";
 import Dots from "../Dots";
 
 function Skills() {
-  // إعدادات الحركة للمجموعة
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -25,9 +24,8 @@ function Skills() {
     },
   };
 
-  // إعدادات الحركة للعناصر الفردية
   const itemVariants = {
-    hidden: { opacity: 0, y: 30 }, // زيادة المسافة للتحرك عن الظهور
+    hidden: { opacity: 0, y: 30 }, 
     visible: {
       opacity: 1,
       y: 0,
@@ -42,7 +40,6 @@ function Skills() {
         <h1  className="skills mb-10 text-4xl font-bold relative z-50 tracking-widest">My Skills</h1>
       </div>
 
-      {/* الشبكة الرئيسية لعرض المهارات */}
       <motion.div
         className="grid grid-cols-12 gap-6 justify-between"
         initial="hidden"
@@ -50,7 +47,6 @@ function Skills() {
         viewport={{ amount: 0.3 }}
         variants={containerVariants}
       >
-        {/* العناصر المكررة للمهارات */}
         {[
           { Icon: FaHtml5, label: "HTML" },
           { Icon: FaCss3Alt, label: "CSS" },

@@ -11,6 +11,7 @@ import img9 from '../../assets/images/img-9.PNG';
 import img10 from '../../assets/images/img-10.PNG';
 import img11 from '../../assets/images/img-11.PNG';
 import img12 from '../../assets/images/img-7.PNG';
+import img13 from '../../assets/images/spotify.PNG';
 import { FaEye } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
 import Dots from '../Dots';
@@ -22,7 +23,6 @@ function Portfolio() {
     hover: { scale: 1.1 }
   };
 
-  // إعدادات الحركة للنصوص والعناوين
   const textVariants = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
@@ -47,13 +47,20 @@ function Portfolio() {
       </div>
 
       <div  className="projects grid grid-cols-12 gap-5 my-14">
-        {/* بطاقة المشروع */}
+       
         {[{
+          title: "Simple Spotify Clone",
+          demoLink: "https://mostafa-ah221.github.io/simple-Spotify-Clone/",
+          codeLink: "https://github.com/Mostafa-Ah221/simple-Spotify-Clone",
+          imgSrc: img13,
+        }, 
+        {
           title: "Simple Profile",
           demoLink: "https://mostafa-ah221.github.io/profile-2/",
           codeLink: "https://github.com/Mostafa-Ah221/profile-2",
           imgSrc: img2,
-        }, {
+        },
+        {
           title: "Crreative.Ag",
           demoLink: "https://mostafa-ah221.github.io/Spacial-Design/",
           codeLink: "https://github.com/Mostafa-Ah221/Spacial-Design",
