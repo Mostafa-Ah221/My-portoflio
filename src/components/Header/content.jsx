@@ -62,7 +62,7 @@ const Content = () => {
         <div className="flex gap-3 my-4">
           <a target='_blank' href="https://www.linkedin.com/in/mostafa-ahmed-983521259/"><FaLinkedin className="text-2xl cursor-pointer hover:text-orange-600 transition duration-300" /></a>
           
-          <a target='_blank' href="https://github.com/settings/profile"><FaGithub className="text-2xl cursor-pointer hover:text-orange-600 transition duration-300" /></a>
+          <a target='_blank' href="https://github.com/Mostafa-Ah221"><FaGithub className="text-2xl cursor-pointer hover:text-orange-600 transition duration-300" /></a>
       
           <SiWhatsapp
             className="text-2xl cursor-pointer hover:text-orange-600 transition duration-300"
