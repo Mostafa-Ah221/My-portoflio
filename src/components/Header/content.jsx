@@ -8,7 +8,7 @@ const Content = () => {
   const [displayText, setDisplayText] = useState('');
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [isTyping, setIsTyping] = useState(true);
-  const wordsArray = ['Front-End', 'React JS', 'React Native'];
+  const wordsArray = ['Front-End', 'React-JS',"Next-Js"];
   const typingSpeed = 150;
   const pauseDuration = 500;
 

@@ -12,6 +12,7 @@ import img10 from '../../assets/images/img-10.PNG';
 import img11 from '../../assets/images/img-11.PNG';
 import img12 from '../../assets/images/img-7.PNG';
 import img13 from '../../assets/images/spotify.PNG';
+import img14 from '../../assets/images/dfhs8.PNG';
 import { FaEye } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
 import Dots from '../Dots';
@@ -51,9 +52,15 @@ function Portfolio() {
         {[
           {
           title: "Booking System",
-          demoLink: "https://brilliant-tanuki-df94bd.netlify.app/",
+          demoLink: "https://steady-halva-3bb5b3.netlify.app/",
           codeLink: "https://github.com/Mostafa-Ah221/Booking-System",
-          imgSrc: img13,
+          imgSrc: img14,
+        }, 
+          {
+          title: "E-commerse Website",
+          demoLink: "https://steady-halva-3bb5b3.netlify.app/",
+          codeLink: "https://github.com/Mostafa-Ah221/Booking-System",
+          imgSrc: img14,
         }, 
           {
           title: "Simple Spotify Clone",
