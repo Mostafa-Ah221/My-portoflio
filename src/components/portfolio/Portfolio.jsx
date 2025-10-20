@@ -57,12 +57,6 @@ function Portfolio() {
           imgSrc: img14,
         }, 
           {
-          title: "E-commerse Website",
-          demoLink: "https://steady-halva-3bb5b3.netlify.app/",
-          codeLink: "https://github.com/Mostafa-Ah221/Booking-System",
-          imgSrc: img14,
-        }, 
-          {
           title: "Simple Spotify Clone",
           demoLink: "https://mostafa-ah221.github.io/simple-Spotify-Clone/",
           codeLink: "https://github.com/Mostafa-Ah221/simple-Spotify-Clone",
